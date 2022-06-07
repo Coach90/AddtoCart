@@ -56,7 +56,7 @@ function Cart(){
                  Discounted-Rate={i.DiscountedRate}<br/>
                  Qty = <Quantity  quantity={i.Quantity} getQ={(qty)=>getQuantity(qty,i.Id)}/> <br/>
                  <span className="h5">Amount={(i.Amount).toFixed(2)}</span><br/>
-                <span>---------------</span>
+                <span>-----------------</span>
               </li>
                  
             )  ):(<p className="h2 align-middle text-center">You Have no product to display </p>)
